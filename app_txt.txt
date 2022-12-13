@@ -83,11 +83,13 @@ export default function App() {
       </View>
 
       <View style={styles.box_contatos}>
-        <Text style={styles.nome} >{data.nome}</Text>
-        <Text style={styles.numero}>{data.numero}</Text>
+        <View>
+          <Text style={styles.nome} >{data.nome}</Text>
+          <Text style={styles.numero}>{data.numero}</Text>
+        </View>
 
         <View>
-          
+
         </View>
       </View>
 
